@@ -1,14 +1,14 @@
-//3.Escreva  um  programa  que  calcula  o  índice  de  massa  corporal  (IMC)  de  uma  pessoa 
-// e  exibe  uma mensagem indicando se ela está abaixo, no peso ideal ou acima do peso.
+//4.Faça um programa que recebaa idade de uma pessoa e exibauma mensagem indicando em qual faixa etária ela se encontra
+let idade = prompt('Quantos anos você tem?')
 
-let peso = prompt('Qual é o seu peso em quilogramas?')
-let altura = prompt('Qual é a sua altura em centímetros?')
-imc = peso/((altura/100) ** 2)
-
-if(imc<18.5){
-    document.write('O seu imc é: ' +imc.toFixed(2) +' e você está abaixo do peso ideal!' )
-}else if(imc>18.5 && imc<24.9){
-    document.write('O seu imc é: ' +imc.toFixed(2) + ' e você está dentro da faixa ideal de peso!')
-}else{
-    document.write('O seu imc é: ' +imc.toFixed(2) + ' e você está acima do peso ideal!')
+if(idade <= 12){
+    document.write('Você é uma criança!' )
+}else if(idade >= 13 && idade <= 18){
+    document.write('Você é um(a) adolescente!')
+}else if (idade >= 19 && idade < 60){ 
+    document.write('Você é um adulto!')
+}else if (idade => 60){
+    document.write('Você é um(a) idoso(a)')
 }
+   
+
