@@ -1,14 +1,12 @@
-//4.Faça um programa que recebaa idade de uma pessoa e exibauma mensagem indicando em qual faixa etária ela se encontra
-let idade = prompt('Quantos anos você tem?')
+//5. Crie um programa que recebaum nome de usuário e uma senha e verifique se eles correspondem aos dados de um usuário cadastrado.
 
-if(idade <= 12){
-    document.write('Você é uma criança!' )
-}else if(idade >= 13 && idade <= 18){
-    document.write('Você é um(a) adolescente!')
-}else if (idade >= 19 && idade < 60){ 
-    document.write('Você é um adulto!')
-}else if (idade => 60){
-    document.write('Você é um(a) idoso(a)')
+
+let user1 = prompt('Qual é o usuário?')
+let senha1 = prompt('Qual é a senha?')
+
+if(user1 == 'admin' && senha1 == 1234){
+    window.alert('Login efetuado com sucesso! Seja bem-vindo.')
+}else{
+    window.alert('Dados incorretos, revise o usuário e/ou a senha.')
 }
-   
 
