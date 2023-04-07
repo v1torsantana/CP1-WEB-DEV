@@ -1,14 +1,13 @@
-//6.Vamos criar um programa que calcule a média de 7 notas e exiba uma mensagem indicando se o aluno foi aprovado ou reprovado.
+let nome = prompt('Qual é o seu nome?')
+let idade = prompt('Quantos anos você tem?')
+let curso = prompt('Qual curso vc faz?')
+let ano = prompt('Em qual ano do curso vc está?') 
 
-let n1 = parseFloat(prompt('Qual é a primeira nota?'))
-let n2 = parseFloat(prompt('Qual é a segunda nota?'))
-let n3 = parseFloat(prompt('Qual é a terceira nota?'))
-let n4 = parseFloat(prompt('Qual é a quarta nota?'))
-media = (n1 + n2 + n3 + n4) / 4
-
-if (media >= 6){
-    document.write('Parabéns, você foi aprovado com a media ' +media+ ' !')
-
-}else{
-    document.write('Infelizmente sua nota ' +media+ ' não foi suficiente, você foi reprovado!')
-}
+document.write('Seu nome é ' +nome)
+document.write('<br></br>')
+document.write('Você tem ' +idade + ' anos')
+document.write('<br></br>')
+document.write('Está cursando ' +curso)
+document.write('<br></br>')
+document.write('No ' +ano + ' ° ano do curso')
+document.write('<br></br>')
