@@ -1,4 +1,4 @@
-//8.Crie  um  programa  em  Javascript  que troque  a  palavra  lugar  por  mundo  da frase O  LUGAR  VIRA TECNOLOGIA e apresente na tela. 
- let frase = "O lugar vira tecnologia";
- let frasenova = frase.replace("lugar", "mundo");
- console.log(frasenova)
+//9.Crie um programa que declare a variável como String depois converta para float e em seguida apresente apenas dois numeros depois da virgula]
+let numString = '12345.222222'
+console.log(numString)
+console.log(parseFloat(numString).toFixed(2))
