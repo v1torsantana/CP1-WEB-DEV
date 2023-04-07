@@ -1,13 +1,4 @@
-let nome = prompt('Qual é o seu nome?')
-let idade = prompt('Quantos anos você tem?')
-let curso = prompt('Qual curso vc faz?')
-let ano = prompt('Em qual ano do curso vc está?') 
-
-document.write('Seu nome é ' +nome)
-document.write('<br></br>')
-document.write('Você tem ' +idade + ' anos')
-document.write('<br></br>')
-document.write('Está cursando ' +curso)
-document.write('<br></br>')
-document.write('No ' +ano + ' ° ano do curso')
-document.write('<br></br>')
+//8.Crie  um  programa  em  Javascript  que troque  a  palavra  lugar  por  mundo  da frase O  LUGAR  VIRA TECNOLOGIA e apresente na tela. 
+ let frase = "O lugar vira tecnologia";
+ let frasenova = frase.replace("lugar", "mundo");
+ console.log(frasenova)
